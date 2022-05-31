@@ -9,3 +9,8 @@ The specifications of the system are as follows:
 3. Pin 9 controls an LED to indicate the amplitude of the recorded signal
 
 The circuit diagram is shown below:
+![alt text](https://github.com/GitShanks14/ECG-electrode/blob/main/Assets/ECG_test_bb.png)
+
+Compatible with MATLAB scripts Measure_N and Measure_T. Upload the program to the Arduino, disconnect the serial connection between the Arduino IDE and the board, run MATLAB script init followed by the script of choice. 
+
+To change the sampling frequency, please change the interval defined in the Arduino program, and the sampling frequencies defined in the MATLAB scripts. For ECG signals, a sampling frequency of 1000 Hz is neither insufficient nor excessive. 
