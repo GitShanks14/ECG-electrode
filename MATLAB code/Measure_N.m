@@ -1,4 +1,4 @@
-% Measure_: Measures N samples of the signal at the specified sampling freq
+% Measure_: Measures N samples of signal at specified sampling freq
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %                   Set parameters                                      %                              
@@ -47,5 +47,3 @@ ylim([-1 6]);
 
 % Save recorded signal
 save(fname,'v','t');
-
-
